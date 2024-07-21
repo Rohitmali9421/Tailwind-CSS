@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-tr text-white">
+    <!-- Navbar Section -->
+    <nav class="absolute z-50 w-full">
+        <div class="flex items-center py-4 px-10 md:px-20 w-full justify-between">
+          <!-- Logo Section -->
+          <div class="w-40 text-red-500">
+            <span class="text-red-600" ">
+                <img class="w-28 md:w-36" src="logo.png" alt="">
+               
+            </span>
+          </div>
+
+          <!-- Menu and Sign In Section -->
+          <div class="flex md:mx-6 mx-3  sm:inline-flex items-center">
+            <!-- Language Selector -->
+            <div>
+              <select
+                class="bg-transparent rounded border border-white px-4 py-1 text-white"
+                aria-label="Language Selector"
+              >
+                <option class="text-black" value="en">English</option>
+                <option class="text-black" value="hi">हिन्दी</option>
+              </select>
+            </div>
+            <!-- Sign In Button -->
+            <div class="bg-red px-4 py-1 rounded text-white cursor-pointer">
+              Sign In
+            </div>
+          </div>
+        </div>
+      
+    </nav>
+
+    <!-- Main Section -->
+    <section class="relative flex items-center justify-center h-auto">
+      <div class="absolute z-20 max-w-3xl space-y-2 text-center">
+        <h1 class="text-4xl font-bold">Unlimited movies, TV shows and more.</h1>
+        <p class="text-xl hidden sm:block">Watch anywhere. Cancel anytime.</p>
+        <p class="text-lg px-8 hidden sm:block">
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <div class="flex w-full mt-4">
+          <input
+            class="w-full px-4 py-3 bg-white text-gray-400"
+            placeholder="Email address"
+            type="text"
+          />
+          <button class="bg-red-600 text-white px-4 flex items-center ml-2">
+            Get Started
+            <svg
+              class="w-6 ml-2"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <img
+        class="w-full object-cover"
+        src="https://assets.nflxext.com/ffe/siteui/vlv3/c43f3cc0-6f02-4b8a-9470-7b1732eb937d/7ae82418-beea-4868-8594-dddd284dc46c/IN-en-20210315-popsignuptwoweeks-perspective_alpha_website_small.jpg"
+        alt="Netflix Promotional Image"
+      />
+    </section>
+
+    <!-- Section 2 -->
+    <section
+      class="flex flex-col sm:flex-row bg-black border-t-8 border-gray-700 min-h-screen text-white"
+    >
+      <div
+        class="flex flex-col items-center justify-center p-12 sm:w-1/2 w-full"
+      >
+        <h2 class="text-4xl font-bold text-left w-full">Enjoy on your TV.</h2>
+        <p class="text-xl">
+          Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+          players and more.
+        </p>
+      </div>
+      <div class="sm:w-1/2 w-full bg-black relative">
+        <img
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+          alt="Watch on TV"
+          class="absolute right-0 z-10"
+        />
+        <video class="w-full p-20" autoplay playsinline muted loop>
+          <source
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section
+      class="flex flex-col sm:flex-row bg-black border-t-8 border-gray-700 min-h-screen text-white"
+    >
+      <div
+        class="flex flex-col items-center justify-center p-12 sm:w-1/2 w-full"
+      >
+        <h2 class="text-4xl font-bold text-left w-full">Watch everywhere.</h2>
+        <p class="text-xl">
+          Stream unlimited movies and TV shows on your phone, tablet, laptop,
+          and TV.
+        </p>
+      </div>
+      <div class="sm:w-1/2 w-full bg-black relative">
+        <img
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png"
+          alt="Watch on multiple devices"
+          class="absolute right-0 z-10"
+        />
+        <video class="w-full p-20" autoplay playsinline muted loop>
+          <source
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="bg-black text-center text-white border-t-8 border-gray-700">
+      <div class="w-full max-w-3xl mx-auto py-20">
+        <h2 class="text-4xl font-bold">Frequently Asked Questions</h2>
+        <p class="py-4">
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <div class="flex w-full mt-4">
+          <input
+            class="w-full px-4 py-3 bg-white text-gray-400"
+            placeholder="Email address"
+            type="text"
+          />
+          <button class="bg-red-600 text-white px-4 flex items-center ml-2">
+            Get Started
+            <svg
+              class="w-6 ml-2"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-400">
+      <div class="w-full p-10 space-y-4">
+        <p>Questions? Call 000-800-040-1843</p>
+        <div class="flex flex-wrap space-y-4">
+          <div class="w-1/2 sm:w-1/4">
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:underline">FAQ</a></li>
+              <li>
+                <a href="#" class="hover:underline">Investor Relations</a>
+              </li>
+              <li><a href="#" class="hover:underline">Privacy</a></li>
+              <li><a href="#" class="hover:underline">Speed Test</a></li>
+            </ul>
+          </div>
+          <div class="w-1/2 sm:w-1/4">
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:underline">Help Centre</a></li>
+              <li><a href="#" class="hover:underline">Jobs</a></li>
+              <li>
+                <a href="#" class="hover:underline">Cookie Preferences</a>
+              </li>
+              <li><a href="#" class="hover:underline">Legal Notices</a></li>
+            </ul>
+          </div>
+          <div class="w-1/2 sm:w-1/4">
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:underline">Account</a></li>
+              <li><a href="#" class="hover:underline">Ways to Watch</a></li>
+              <li>
+                <a href="#" class="hover:underline">Corporate Information</a>
+              </li>
+              <li><a href="#" class="hover:underline">Netflix Originals</a></li>
+            </ul>
+          </div>
+          <div class="w-1/2 sm:w-1/4">
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:underline">Netflix India</a></li>
+              <li><a href="#" class="hover:underline">Netflix App</a></li>
+              <li><a href="#" class="hover:underline">Terms of Use</a></li>
+              <li>
+                <a href="#" class="hover:underline">Accessibility Statement</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
