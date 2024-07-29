@@ -35,7 +35,7 @@ function CardScrollLayout({ children }) {
     };
 
     return (
-        <div className='overflow-x-clip mt-8 mx-4 pb-6'>
+        <div className='overflow-x-clip mt-8 mx-1 md:mx-4 pb-6'>
             <Slider {...settings}>
                 {children}
             </Slider>
