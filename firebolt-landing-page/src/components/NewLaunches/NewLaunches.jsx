@@ -15,7 +15,7 @@ function NewLaunches() {
         <h1 className='md:text-xl text-sm pb-1 '>Recently Launched</h1>
         <h1 className='md:text-xl text-sm  pb-1   text-gray-600'>Upcoming Launches</h1>
       </div>
-      <div className=' overflow-x-clip mt-8 mx-4 '>
+      
         <CardScrollLayout>
           <Card imageURL="https://www.fireboltt.com/cdn/shop/files/Black_01_53a058b5-640b-450b-af00-901dff5815e6_540x.png?v=1720530551" name="Maverick" />
           <Card imageURL="https://www.fireboltt.com/cdn/shop/files/Black_01_53a058b5-640b-450b-af00-901dff5815e6_540x.png?v=1720530551" name="Maverick" />
@@ -23,7 +23,7 @@ function NewLaunches() {
           <Card imageURL="https://www.fireboltt.com/cdn/shop/files/Black_01_53a058b5-640b-450b-af00-901dff5815e6_540x.png?v=1720530551" name="Maverick" />
         </CardScrollLayout>
         
-      </div>
+     
     </div>
   )
 }
