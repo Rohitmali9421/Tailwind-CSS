@@ -45,18 +45,11 @@ function Baner() {
       <div className='slider-container overflow-x-clip' ref={elementRef}>
         <Slider {...settings} className="">
           <div className="hidden md:inline-block">
-            <img src="https://www.fireboltt.com/cdn/shop/files/Artboard_3_1_0505552c-4241-48da-937d-696400c238b4_800x.png?v=1721461672" alt="" />
+            <img src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722354886/Firebolt-landing-page/uislflgwxi9dwt0ngkkb.webp" alt="" />
           </div>
           <div className="hidden md:inline-block">
-            <img src="https://www.fireboltt.com/cdn/shop/files/Artboard_3_1_0505552c-4241-48da-937d-696400c238b4_800x.png?v=1721461672" alt="" />
+            <img src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722354804/Firebolt-landing-page/g7gtyvpccinxez2c3udj.webp" alt="" />
           </div>
-          <div className="hidden md:inline-block">
-            <img src="https://www.fireboltt.com/cdn/shop/files/Artboard_3_1_0505552c-4241-48da-937d-696400c238b4_800x.png?v=1721461672" alt="" />
-          </div>
-          <div className="hidden md:inline-block">
-            <img src="https://www.fireboltt.com/cdn/shop/files/Artboard_3_1_0505552c-4241-48da-937d-696400c238b4_800x.png?v=1721461672" alt="" />
-          </div>
-          
         </Slider>
       </div>
     )
@@ -65,16 +58,16 @@ function Baner() {
       <div className='slider-container overflow-x-clip' ref={elementRef}>
         <Slider {...settings} className="">
           <div className="hidden md:inline-block">
-            <img src="https://www.fireboltt.com/cdn/shop/files/Artboard_2_77f607c8-2461-46f5-817c-2a7c53f0d8c8_1759x.jpg?v=1721975863" alt="" />
+            <img src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722354344/Firebolt-landing-page/aryh5hsv6wfmrnlvqkow.webp" alt="" />
           </div>
           <div className="hidden md:inline-block">
-            <img src="https://www.fireboltt.com/cdn/shop/files/Artboard_1_copy_3_1_7d7551b5-4b33-4d87-ae9a-593c9e3f9820_1759x.jpg?v=1721454329" alt="" />
+            <img src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722354494/Firebolt-landing-page/uy10cadhffjr0vtobnue.webp" alt="" />
           </div>
           <div className="hidden md:inline-block">
-            <img src="https://www.fireboltt.com/cdn/shop/files/Artboard_2_1_e98cc5ff-76d9-4435-89e3-c20108cc18cc_1759x.png?v=1721461671" alt="" />
+            <img src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722354545/Firebolt-landing-page/qm8drxjmmagi0q8lm30z.webp" alt="" />
           </div>
           <div className="md:inline-block">
-            <img src="https://www.fireboltt.com/cdn/shop/files/Artboard_1_8dcad14c-b633-417f-b2cb-b589b282b055_1759x.png?v=1721454227" alt="" />
+            <img src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722354626/Firebolt-landing-page/loaunylxycvy9fgcztvm.webp" alt="" />
           </div>
         </Slider>
       </div>
