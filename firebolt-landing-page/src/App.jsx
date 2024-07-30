@@ -29,7 +29,7 @@ function App() {
       <Trending/>
       <Deals/>
       <Audio/>
-      <img src="https://www.fireboltt.com/cdn/shop/files/fireboltt_banner_1920_2_1700x.jpg?v=1689828512" className='p-8 border-t' alt="" />
+      <img src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722359146/Firebolt-landing-page/mdd6yuc40srihzbzoygy.webp" className='md:p-8 p-2 border-t' alt="" />
       <Blogs/>
       <Press/>
       <Footer/>
