@@ -33,6 +33,7 @@ function Baner() {
   const settings = {
     dots: true,
     infinite: true,
+    fade: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
