@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaBarsStaggered } from "react-icons/fa6";
 function Navbar() {
-  
+
   return (
     <div className='w-full h-16 flex border justify-between items-center px-4 md:px-10 lg:px-20'>
       <FaBarsStaggered className='block sm:hidden text-2xl' />
@@ -16,12 +16,12 @@ function Navbar() {
         <h1>More</h1>
       </div>
       <div className=''>
-        <img src="https://www.fireboltt.com/cdn/shop/files/Background_150x.png?v=1620478900" alt="" />
+        <img src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722355023/Firebolt-landing-page/wchrtlxhayyrfhbt1lra.webp" alt="" />
       </div>
       <div className='flex gap-4 text-2xl'>
-      <IoIosSearch />
-      <IoBagHandleOutline />
-      <CiUser />
+        <IoIosSearch />
+        <IoBagHandleOutline />
+        <CiUser />
       </div>
     </div>
   )
