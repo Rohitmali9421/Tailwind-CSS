@@ -17,10 +17,11 @@ function NewLaunches() {
       </div>
       
         <CardScrollLayout>
-          <Card imageURL="https://www.fireboltt.com/cdn/shop/files/Black_01_53a058b5-640b-450b-af00-901dff5815e6_540x.png?v=1720530551" name="Maverick" />
-          <Card imageURL="https://www.fireboltt.com/cdn/shop/files/Black_01_53a058b5-640b-450b-af00-901dff5815e6_540x.png?v=1720530551" name="Maverick" />
-          <Card imageURL="https://www.fireboltt.com/cdn/shop/files/Black_01_53a058b5-640b-450b-af00-901dff5815e6_540x.png?v=1720530551" name="Maverick" />
-          <Card imageURL="https://www.fireboltt.com/cdn/shop/files/Black_01_53a058b5-640b-450b-af00-901dff5815e6_540x.png?v=1720530551" name="Maverick" />
+          <Card imageURL="https://res.cloudinary.com/dhturqqs5/image/upload/v1722356115/Firebolt-landing-page/d4yzqrwhctf98rot114a.webp" name="Arc" description="AMOLED | BT Calling" price="₹1,699" />
+          <Card imageURL="https://res.cloudinary.com/dhturqqs5/image/upload/v1722356219/Firebolt-landing-page/oxecj1com5az0g2cpwuq.webp" name="Maverick" description="51.3mm Display | BT Calling" price="₹2,799" />
+          <Card imageURL="https://res.cloudinary.com/dhturqqs5/image/upload/v1722356313/Firebolt-landing-page/tdyzhggq3zayjwdao73t.webp" name="Dapper" description="BT Calling" price="₹1,999" />
+          <Card imageURL="https://res.cloudinary.com/dhturqqs5/image/upload/v1722356539/Firebolt-landing-page/gdqcjhitpu1wvlwiangi.webp" name="Brillia  " description="51.3mm AMOLED | BT Calling " price="₹1,699" />
+        
         </CardScrollLayout>
         
      
