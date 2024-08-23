@@ -20,14 +20,14 @@ function Press() {
             <div className='w-full py-6 border-t '>
                 <h1 className='text-center font-bold text-2xl py-3'>Official Partners</h1>
                 <div className='m-6 grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-10'>
-                    <img className='mx-auto' src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722359741/Firebolt-landing-page/iclwvoturkt1qfwnoeny.avif" alt="" />
-                    <img className='mx-auto' src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722359750/Firebolt-landing-page/tusoeiakgzg93adyk9ao.avif" alt="" />
-                    <img className='mx-auto' src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722359768/Firebolt-landing-page/od5hptoej3z0bovmc4fx.avif" alt="" />
-                    <img className='mx-auto' src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722359787/Firebolt-landing-page/wkhboivl8jgjifl2dlek.avif" alt="" />
-                    <img className='mx-auto' src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722359805/Firebolt-landing-page/k5f1tl7wkfgnwkpqovwv.avif" alt="" />
-                    <img className='mx-auto' src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722359824/Firebolt-landing-page/ewezmpu12xauzzhte5at.avif" alt="" />
-                    <img className='mx-auto' src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722359842/Firebolt-landing-page/scuspuq27zl8di83coar.avif" alt="" />
-                    <img className='mx-auto' src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722359857/Firebolt-landing-page/availz245bqhk6n3eyn1.avif" alt="" />
+                    <img className='mx-auto' src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722359741/Firebolt-landing-page/iclwvoturkt1qfwnoeny.avif" loading="lazy" alt="" />
+                    <img className='mx-auto' src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722359750/Firebolt-landing-page/tusoeiakgzg93adyk9ao.avif" loading="lazy" alt="" />
+                    <img className='mx-auto' src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722359768/Firebolt-landing-page/od5hptoej3z0bovmc4fx.avif" loading="lazy" alt="" />
+                    <img className='mx-auto' src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722359787/Firebolt-landing-page/wkhboivl8jgjifl2dlek.avif" loading="lazy" alt="" />
+                    <img className='mx-auto' src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722359805/Firebolt-landing-page/k5f1tl7wkfgnwkpqovwv.avif" loading="lazy" alt="" />
+                    <img className='mx-auto' src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722359824/Firebolt-landing-page/ewezmpu12xauzzhte5at.avif" loading="lazy" alt="" />
+                    <img className='mx-auto' src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722359842/Firebolt-landing-page/scuspuq27zl8di83coar.avif" loading="lazy" alt="" />
+                    <img className='mx-auto' src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722359857/Firebolt-landing-page/availz245bqhk6n3eyn1.avif" loading="lazy" alt="" />
                 </div>
             </div>
         </div>
