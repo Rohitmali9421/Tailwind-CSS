@@ -4,7 +4,7 @@ function Card({ imageURL, name ,description,price }) {
     return (
         <div className='min-w-60      mx-auto'>
             <div className='mx-3 py-3 bg-gray-100 rounded-xl'>
-                <img className=' mx-auto p-4' src={imageURL} alt="" />
+                <img className=' mx-auto p-4' loading="lazy" src={imageURL} alt="" />
                 <h1 className='text-center font-bold pt-2 text-2xl'>{name}</h1>
                 <p className='text-center text-xs font-medium'>{description}</p>
                 <h1 className='text-center font-bold pt-2 text-xl'>{price}</h1>

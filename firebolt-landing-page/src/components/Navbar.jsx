@@ -16,7 +16,7 @@ function Navbar() {
         <h1>More</h1>
       </div>
       <div className=''>
-        <img src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722355023/Firebolt-landing-page/wchrtlxhayyrfhbt1lra.webp" alt="" />
+        <img src="https://res.cloudinary.com/dhturqqs5/image/upload/v1722355023/Firebolt-landing-page/wchrtlxhayyrfhbt1lra.webp" loading="lazy" alt="" />
       </div>
       <div className='flex gap-4 text-2xl'>
         <IoIosSearch />
